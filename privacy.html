@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy · Planum</title>
+  <meta name="description" content="Informativa sulla privacy di Planum.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p class="mark"><a href="index.html">Planum</a></p>
+    <h1>Informativa sulla privacy</h1>
+    <p class="lede">Ultimo aggiornamento: 20 ottobre 2026.</p>
+
+    <h2>In breve</h2>
+    <p>Planum non ha server e non raccoglie dati. Tutto ciò che Planum legge o scrive resta sui dispositivi dell'utente o nel suo account Google.</p>
+
+    <h2>Dati di Google a cui accede</h2>
+    <ul>
+      <li><strong>Elenco dei calendari</strong> (<code>calendar.calendarlist.readonly</code>): nome, colore, fuso orario e permessi di ciascun calendario, per mostrarli in Planum.</li>
+      <li><strong>Eventi</strong> (<code>calendar.events</code>): titolo, orari, ricorrenza, luogo e descrizione degli eventi, per mostrarli e per inviare a Google le modifiche fatte dall'utente in Planum (creare, spostare, modificare, eliminare eventi).</li>
+    </ul>
+
+    <h2>Come vengono usati e conservati</h2>
+    <ul>
+      <li>Planum scarica gli eventi direttamente da Google sul dispositivo dell'utente e li salva nel database locale dell'app, che si sincronizza solo con gli altri dispositivi dello stesso utente sulla rete locale.</li>
+      <li>L'autorizzazione di Google (refresh token) è conservata nel portachiavi del sistema operativo (Gestione credenziali di Windows) e non viene mai condivisa né sincronizzata.</li>
+      <li>I dati non vengono inviati a server di Planum o di terzi, non vengono venduti, non sono usati per pubblicità, profilazione o addestramento di modelli di intelligenza artificiale.</li>
+      <li>L'uso dei dati ricevuti dalle API di Google rispetta le <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, compresi i requisiti di uso limitato (Limited Use).</li>
+    </ul>
+
+    <h2>Revoca e cancellazione</h2>
+    <p>L'accesso si revoca in qualsiasi momento da Planum (Calendario → account → Scollega) o dalla pagina <a href="https://myaccount.google.com/permissions">Accesso di terze parti</a> dell'account Google. Scollegando l'account, Planum elimina dal dispositivo l'autorizzazione e smette di mostrare i calendari di quell'account; i dati restano comunque solo sui dispositivi dell'utente.</p>
+
+    <h2>Contatti</h2>
+    <p>Per domande: <a href="https://github.com/lucaxthlon/planum-app/issues">pagina del progetto su GitHub</a>.</p>
+
+    <hr>
+    <section id="en" lang="en">
+      <h2>Privacy policy (English)</h2>
+      <p>Planum has no servers and collects no data. With the user's consent it reads the user's Google calendar list (<code>calendar.calendarlist.readonly</code>) and reads and writes their events (<code>calendar.events</code>) directly from the user's own device, to show them and to apply the changes the user makes in Planum. Event data is stored only in the app's local database on the user's devices, which sync with each other over the local network. The Google refresh token is kept in the operating system's credential store and never shared. Data is not sent to Planum or third-party servers, not sold, and not used for advertising, profiling or AI training. Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Access can be revoked at any time from Planum or from the Google account's <a href="https://myaccount.google.com/permissions">third-party access</a> page. Contact: <a href="https://github.com/lucaxthlon/planum-app/issues">project page on GitHub</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
